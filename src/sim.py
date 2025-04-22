@@ -1,12 +1,12 @@
 from dataclasses import dataclass
 from enum import Enum
+from const.prompts import ground
+from llm import parse, create, systemp
 
-class Capability(Enum):
-    EXISTS = "exists"
-    EMERGING = "emerging"
-    FICTION = "fiction"
-
-@dataclass
-class SimState:
-    capabilities: dict[str, Capability]
-    situations: dict[str, str]
+def simulate() -> str:
+    return create(
+        messages=[systemp(ground)],
+        temperature=0.5,
+        max_tokens=10000,
+        model="gpt-4o-mini-2024-07-18"
+    )
