@@ -13,10 +13,9 @@ Here is the JSON schema you need to follow in your response to create a simulati
 [
     {{
         "date": < date in mm/YYYY format >
-        "reasoning": < reasoning text; you can write whatever you want here, the user won't see >
-        "summary": < information about the world in AI >
+        "situation": < detailed information about the world in AI >
         "tracker_fills": {{
-            < tracker name >: < fill in info here >
+            < tracker name >: < info | null ; use null if there is no significant change of this value compared to the previous month >
         }}
     }},
     ...

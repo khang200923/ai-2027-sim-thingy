@@ -6,13 +6,19 @@ DEFINITIONS = [
 ]
 
 STATEMENTS = [
+    "There will be the leading AI lab in the US that we will call OpenBrain.",
+    "There will be the leading AI lab in China that we will call DeepCent.",
+    "All the leading AIs, at their core, will be large language models.",
+    "In April 2025, OpenBrain's frontier AI will be at level 1.",
     "AI systems will become superintelligent and make a fundamental change in the world this century.",
     "If no one puts forth effort, the public will dismiss it as science fiction until it becomes really apparent, particularly superintelligence.",
-    "The leading AI lab will focus on training AI to do AI R&D itself.",
+    "Around 6/2025, *some* of the leading AI labs will focus on training AI to do AI R&D itself.",
     "AI labs, a little concerned about safety, will put efforts to align AIs, but only shallowly. This works fine for AIs with level under 3.5, but passing that limit, the AI will only seem to be aligned.",
     "There exists the AI safety community which really cares about AI safety, and in the right way.",
+    "If the AI labs put forth most of their effort into increasing AI capabilities, the AI level will increase by 1 level every 6 months if the level's under 3.5. That means approximately 0.17 levels per month.",
+    "If the AI level is above 3.5, it will speed up noticeably until superintelligence is reached.",
     "The US government and the leading US lab won't listen to the AI safety community, because the AI lab is already participating in an AI race against the Chinese government. It might be possible to convince otherwise, but we don't know.",
-    "In 2025, the US will be the leading country in AI, and China will be the second. The US will have a lead of 2-3 months compared to China.",
+    "In April 2025, the US will be the leading country in AI, and China will be the second; the US will have a lead of 2-3 months compared to China.",
     "AIs above level 6 will essentially be superintelligent",
     "Ais which are not superintelligent will be surprisingly bad at robotics.",
     "Most of everybody will dismiss the possibility of superintelligence as real and AI safety as a real problem until it becomes really apparent.",
