@@ -11,7 +11,7 @@ def simulate(end_time: str) -> str:
         messages=[systemp(get_ground(end_time))],
         temperature=0.2,
         max_tokens=10000,
-        model="gpt-4o-mini-2024-07-18",
+        model="gpt-4.1-mini-2025-04-14",
         response_format=schema,
     )
     x = x.choices[0].message.content
