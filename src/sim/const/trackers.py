@@ -11,6 +11,8 @@ TRACKERS = [
     Tracker("Relationship between US government and China government"),
     Tracker("US stance on AI safety"),
     Tracker("Sentiment of the public towards AI"),
+    Tracker("AI level of OpenBrain's frontier AI"),
+    Tracker("AI level of DeepCent's frontier AI"),
     Tracker("Risk of AI misalignment in the current leading lab",
         format=number_type_with_anchors(10, {0: "no risk", 10: "catastrophic risk"})),
     Tracker("Impact of AI on global job markets",

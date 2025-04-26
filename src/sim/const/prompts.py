@@ -5,9 +5,10 @@ from pathlib import Path
 
 ground_template = get(Path(__file__).parent / "prompts" / "ground.md")
 
-ground = ground_template.format(
-    statements=STATEMENTS,
-    trackers=TRACKERS,
-    end_date="01/2026",
-    definitions=DEFINITIONS,
-)
+def get_ground(end_date: str) -> str:
+    return ground_template.format(
+        statements=STATEMENTS,
+        trackers=TRACKERS,
+        end_date=end_date,
+        definitions=DEFINITIONS,
+    )

@@ -9,3 +9,4 @@ For the sake of convenience, we will measure the capabilities of an AI by "AI Le
 | 6        | 300 hours (~1 human months)  |
 | 7        | 1000 hours (~4 human months) |
 AI Level can be a real number, for example 1.5.
+Please remember that AI levels are only analogies for how intelligent an AI is.
