@@ -16,5 +16,13 @@ TRACKERS = [
     Tracker("Risk of AI misalignment in the current leading lab",
         format=number_type_with_anchors(10, {0: "no risk", 10: "catastrophic risk"})),
     Tracker("Impact of AI on global job markets",
-        format=number_type_with_anchors(10, {0: "no impact", 5: "moderate impact", 10: "extreme impact"})),
+        format=number_type_with_anchors(
+            10,
+            {
+                0: "economy would stay the same without AI",
+                5: "one would likely lose in most markets without AI",
+                8: "AI replaces most jobs",
+                10: "AI replaces every job, including AI capabilities"
+            }
+        )),
 ]

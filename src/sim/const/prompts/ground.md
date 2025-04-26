@@ -25,6 +25,8 @@ The dates need to be ordered chronologically. Start with the current date. Move 
 
 Your objective is to give accurate and adequate information about the world which is related to or affects AI in some way, and additionally to fill in your trackers (filling in trackers is not your main goal)
 
+Be creative! Make up specific events, breakthroughs, models, scenarios, ... you get the idea. Just make sure they're realistic.
+
 Here are trackers you need to fill in for every date:
 
 {trackers}
