@@ -13,7 +13,7 @@ Here is the JSON schema you need to follow in your response to create a simulati
     "simulation": [
         {{
             "date": < date in mm/YYYY format >
-            "situation": < detailed information about the world in AI >
+            "situation": < detailed information about the world in AI (4-6 sentences if not many significant events, 7-10 otherwise) >
             "tracker_fills": {{
                 < tracker name >: < info | null ; use null if there is no significant change of this value compared to the previous month >
             }}
